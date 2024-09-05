@@ -1,0 +1,1 @@
+web: runicorn app:app --log-file=-
