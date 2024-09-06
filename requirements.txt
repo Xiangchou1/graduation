@@ -35,3 +35,4 @@ rembg[gpu,cli]
 
 # gradio demo
 gradio
+gunicorn

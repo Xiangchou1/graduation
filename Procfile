@@ -1,1 +1,1 @@
-web: runicorn app:app --log-file=-
+web: gunicorn gradio_app:app --log-file=-
