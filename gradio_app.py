@@ -37,7 +37,8 @@ def optimize_stage_2(elevation_slider: float):
 
 
 if __name__ == "__main__":
-    _TITLE = '''DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation'''
+    demo.queue().launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
+    _TITLE = '''image-to-3D'''
 
     _DESCRIPTION = '''
     <div>
